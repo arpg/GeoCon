@@ -1,5 +1,6 @@
 #pragma once
 
+#include <memory>
 #include <Accuracy.h>
 #include <CartesianCoordinates.h>
 #include <GeodeticCoordinates.h>

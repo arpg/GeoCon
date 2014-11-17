@@ -77,6 +77,7 @@
  *                               INCLUDES
  */
 
+#include <stdio.h>
 #include <ctype.h>
 #include <math.h>
 #include <string.h>
