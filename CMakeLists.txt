@@ -31,3 +31,7 @@ export_package(GeoCon
   INCLUDE_DIRS ${GEOCON_INC_DIRS}
   LINK_DIRS ${GEOCON_LINK_DIRS}
   )
+
+install(FILES
+    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Targets.cmake"
+    DESTINATION "lib/cmake/${PROJECT_NAME}" )
