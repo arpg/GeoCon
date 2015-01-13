@@ -41,6 +41,7 @@
 //       the term "geoid height" with height of a point above or below
 //       the geoid: these heights are properly called "orthometric heights".
  
+#include <stdlib.h>
 #include <fstream>
 
 #ifdef IRIXN32
