@@ -1,0 +1,3 @@
+#pragma once
+
+#define MSPCCS_DATA_PATH "@MSPCCS_DATA_PATH@"

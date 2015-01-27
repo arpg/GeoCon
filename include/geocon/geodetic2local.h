@@ -1,3 +1,6 @@
+// Copyright (c) John Morrison, all rights reserved.  See the
+// accompanying LICENSE file for more information.
+
 #pragma once
 
 #include <memory>
@@ -11,6 +14,12 @@ namespace geocon {
 /**
  * Convert easily between a local Cartesian coordinate system and
  * WGS84 Geodetic coordinates.
+ *
+ * Local Coordinate System Orientation is NED:
+ *
+ * x: North
+ * y: East
+ * z: Down (into Earth)
  */
 class geodetic2local {
  public:
